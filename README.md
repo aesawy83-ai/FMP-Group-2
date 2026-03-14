@@ -1,4 +1,4 @@
-# Facade Crack Detection using YOLOv8
+# Facade Crack Detection using YOLOvXX
 ## Problem Statement
 Facade cracks can indicate structural deterioration in buildings. 
 Manual inspection is time-consuming and subjective.
