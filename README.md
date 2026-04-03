@@ -7,11 +7,11 @@ This project addresses the gap between manual façade inspection and BIM-integra
 The current repository implements the **Detect** stage of the workflow using a YOLOvXXX-based crack detection pipeline. Future stages will extend this toward structured outputs, BIM association, and condition-aware asset records.
 
 ## Workflow Stages
-1. Capture – source-agnostic image acquisition
-2. Detect – AI-based façade defect localisation
-3. Structure – convert detections into structured measurable outputs
-4. Integrate – associate outputs with BIM/model elements
-5. Assess – support condition tracking and maintenance decisions
+1. Capture - source-agnostic image acquisition
+2. Detect - AI-based façade defect localisation
+3. Structure - convert detections into structured measurable outputs
+4. Integrate - associate outputs with BIM/model elements
+5. Assess - support condition tracking and maintenance decisions
 
 ## Dataset
 
