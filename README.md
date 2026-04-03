@@ -13,6 +13,22 @@ The current repository implements the **Detect** stage of the workflow using a Y
 4. Integrate - associate outputs with BIM/model elements
 5. Assess - support condition tracking and maintenance decisions
 
+   ## Current Scope
+
+This repository currently focuses on the **Detect** stage of the proposed workflow.
+
+### Implemented
+- Single-class façade crack detection using YOLOv8
+- Google Colab reproducibility workflow
+- Validation metrics, PR curve, confusion matrix, and prediction evidence
+- Roboflow dataset integration
+
+### Planned Future Extensions
+- Crack width estimation and structured defect parameters
+- Confidence-aware output schema (JSON / CSV)
+- BIM / Revit element association
+- Condition-aware digital twin integration
+
 ## Dataset
 
 Source: Roboflow  
