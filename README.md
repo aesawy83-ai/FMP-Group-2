@@ -28,7 +28,14 @@ This repository currently focuses on the **Detect** stage of the proposed workfl
 - BIM / Revit element association
 - Condition-aware digital twin integration
 
+## Research Focus
 
+The broader project investigates whether an image-based façade inspection pipeline can provide reliable, decision-support condition data suitable for future BIM-based digital twin integration.
+
+In the current repository, the practical focus is:
+- Can YOLOvXXX reliably detect façade cracks on held-out images?
+- Can the detection pipeline be reproduced by a third party in Google Colab?
+- Can the detection evidence form a valid foundation for later BIM-linked workflow stages?
 
 
 ## Dataset
