@@ -6,8 +6,8 @@ This project addresses the gap between manual façade inspection and BIM-integra
 The current repository implements the **Detect** stage of the workflow using a YOLOv8-based crack detection pipeline. Future stages will extend this toward structured outputs, BIM association, and condition-aware asset records.
 ## Dataset & Model Summary
 
-|    Metric    |    Value    |
-|---|---|
+| Metric | Value |
+|------|------|
 | Task | Single-Class Crack Detection |
 | Domain | Façade Inspection |
 | Model | YOLOv8s |
