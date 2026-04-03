@@ -16,6 +16,7 @@ The current repository implements the **Detect** stage of the workflow using a Y
 | Batch Size | 16 |
 | mAP@0.5 | 0.825 |
 | Runtime | Google Colab T4 |
+
 ## Workflow Stages
 1. Capture - source-agnostic image acquisition
 2. Detect - AI-based façade defect localisation
@@ -39,7 +40,6 @@ This repository currently focuses on the **Detect** stage of the proposed workfl
 - Condition-aware digital twin integration
 
 ## Research Focus
-
 The broader project investigates whether an image-based façade inspection pipeline can provide reliable, decision-support condition data suitable for future BIM-based digital twin integration.
 
 In the current repository, the practical focus is:
