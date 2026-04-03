@@ -77,7 +77,7 @@ Final Performance:
 
 ## Model Weights 
 The trained model weights (best.pt) are available here:
-[Download Model Weights](https://github.com/aesawy83-ai/FMP-Group2/releases/tag/%23M4U3))
+[Download Model Weights](sha256:d8bf6913f0e1098315173ccc92ca50b0e85d070fae028d274377d333343202cc)
 
 ![PR Curve](results/curves/BoxPR_curve.png)
 
