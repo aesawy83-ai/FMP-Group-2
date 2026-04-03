@@ -1,5 +1,4 @@
-# Bridging the Analog-Digital Divide in Façade Inspection and Maintenance
-
+# AI-Facade-Inspection
 ## AI-Enabled Workflow for Façade Defect Mapping and Digital Twin Integration
 
 This project addresses the gap between manual façade inspection and BIM-integrated digital twin workflows. The aim is to transform façade imagery into structured, traceable condition information that can support maintenance planning and future digital twin integration.
