@@ -51,7 +51,11 @@ In the current repository, the practical focus is:
 
 | Workflow Stage | Status in this Repository | Evidence |
 |---|---|---|
-| Detect | Implemented | YOLOv8s notebook, metrics, PR curve |
+| Capture | Partially addressed | Roboflow dataset and façade image inputs |
+| Detect | Implemented | YOLOv8s notebook, metrics, PR curve, confusion matrix |
+| Structure | Planned | future structured output schema |
+| Integrate | Planned | future BIM / Revit association workflow |
+| Assess | Planned | future condition intelligence and maintenance reporting |
 
 ## Dataset
 
