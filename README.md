@@ -3,7 +3,7 @@
 
 This project addresses the gap between manual façade inspection and BIM-integrated digital twin workflows. The aim is to transform façade imagery into structured, traceable condition information that can support maintenance planning and future digital twin integration.
 
-The current repository implements the **Detect** stage of the workflow using a YOLOvXXX-based crack detection pipeline. Future stages will extend this toward structured outputs, BIM association, and condition-aware asset records.
+The current repository implements the **Detect** stage of the workflow using a YOLOv8-based crack detection pipeline. Future stages will extend this toward structured outputs, BIM association, and condition-aware asset records.
 ## Dataset & Model Summary
 
 | Metric | Value |
@@ -27,7 +27,7 @@ The current repository implements the **Detect** stage of the workflow using a Y
 This repository currently focuses on the **Detect** stage of the proposed workflow.
 
 ### Implemented
-- Single-class façade crack detection using YOLOvXXX
+- Single-class façade crack detection using YOLOv8
 - Google Colab reproducibility workflow
 - Validation metrics, PR curve, confusion matrix, and prediction evidence
 - Roboflow dataset integration
@@ -52,7 +52,7 @@ In the current repository, the practical focus is:
 | Workflow Stage | Status in this Repository | Evidence |
 |---|---|---|
 | Capture | Partially addressed | Roboflow dataset and façade image inputs |
-| Detect | Implemented | YOLOvXXX notebook, metrics, PR curve, confusion matrix |
+| Detect | Implemented | YOLOv8 notebook, metrics, PR curve, confusion matrix |
 | Structure | Planned | future structured output schema |
 | Integrate | Planned | future BIM / Revit association workflow |
 | Assess | Planned | future condition intelligence and maintenance reporting |
@@ -61,7 +61,7 @@ In the current repository, the practical focus is:
 
 Source: Roboflow  
 Project: facade-cracks  
-Format: YOLOvXXX  
+Format: YOLOv8 
 Split: 80% Train / 20% Validation  
 Classes: crack  
 Dataset link : https://universe.roboflow.com/ahmad-younis-s-workspace/facade-cracks
