@@ -62,7 +62,7 @@ Project: facade-cracks
 Format: YOLOv11 
 Split: 80% Train / 20% Validation  
 Classes: crack  
-Dataset link : XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Dataset link : (https://app.roboflow.com/youniss-workspace-fic2t/m10-fmp-g2-facade-detection/3)
 
 ## Model Configuration
 
