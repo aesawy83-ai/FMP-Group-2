@@ -2,18 +2,18 @@
 ## AI-Enabled Workflow for Façade Defect Mapping and Digital Twin Integration
 
 This project addresses the gap between manual façade inspection and BIM-integrated digital twin workflows. The aim is to transform façade imagery into structured, traceable condition information that can support maintenance planning and future digital twin integration.
-The current repository implements the **Detect** stage of the workflow using a YOLOv8-based crack detection pipeline. Future stages will extend this toward structured outputs, BIM association, and condition-aware asset records.
+The current repository implements the **Detect** stage of the workflow using a YOLOv11-based crack detection pipeline. Future stages will extend this toward structured outputs, BIM association, and condition-aware asset records.
 ## Dataset & Model Summary
 
 | Metric | Value |
 |------|------|
 | Task | Single-Class Crack Detection |
 | Domain | Façade Inspection |
-| Model | YOLOv8s |
+| Model | YOLOv11s |
 | Epochs | 50 |
 | Image Size | 640 |
 | Batch Size | 16 |
-| mAP@0.5 | 0.825 |
+| mAP@0.5 | XXXX |
 | Runtime | Google Colab T4 |
 
 ## Workflow Stages
@@ -27,7 +27,7 @@ The current repository implements the **Detect** stage of the workflow using a Y
 This repository currently focuses on the **Detect** stage of the proposed workflow.
 
 ### Implemented
-- Single-class façade crack detection using YOLOv8
+- Single-class façade crack detection using YOLOv11
 - Google Colab reproducibility workflow
 - Validation metrics, PR curve, confusion matrix, and prediction evidence
 - Roboflow dataset integration
@@ -41,7 +41,7 @@ This repository currently focuses on the **Detect** stage of the proposed workfl
 ## Research Focus
 The broader project investigates whether an image-based façade inspection pipeline can provide reliable, decision-support condition data suitable for future BIM-based digital twin integration.
 In the current repository, the practical focus is:
-- Can YOLOv8 reliably detect façade cracks on held-out images?
+- Can YOLOv11 reliably detect façade cracks on held-out images?
 - Can the detection pipeline be reproduced by a third party in Google Colab?
 - Can the detection evidence form a valid foundation for later BIM-linked workflow stages?
   
@@ -50,7 +50,7 @@ In the current repository, the practical focus is:
 | Workflow Stage | Status in this Repository | Evidence |
 |---|---|---|
 | Capture | Partially addressed | Roboflow dataset and façade image inputs |
-| Detect | Implemented | YOLOv8s notebook, metrics, PR curve, confusion matrix |
+| Detect | Implemented | YOLOv11s notebook, metrics, PR curve, confusion matrix |
 | Structure | Planned | future structured output schema |
 | Integrate | Planned | future BIM / Revit association workflow |
 | Assess | Planned | future condition intelligence and maintenance reporting |
@@ -59,14 +59,14 @@ In the current repository, the practical focus is:
 
 Source: Roboflow  
 Project: facade-cracks  
-Format: YOLOv8 
+Format: YOLOv11 
 Split: 80% Train / 20% Validation  
 Classes: crack  
-Dataset link : https://universe.roboflow.com/ahmad-younis-s-workspace/facade-cracks
+Dataset link : XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## Model Configuration
 
-Model: YOLOv8s  
+Model: YOLOv11s  
 Epochs: 50  
 Image size: 640  
 Batch size: 16  
@@ -79,7 +79,7 @@ All annotations were reviewed for consistency.
 Final Performance:
 | Metric | Value |
 |---|---|
-| Model | YOLOv8s |
+| Model | YOLOv11s |
 | Task | Single-Class Crack Detection |
 | mAP@0.5 | 0.825 |
 | Epochs | 50 |
@@ -116,7 +116,7 @@ The trained model weights (`best.pt`) are available here: [Download Model Weight
 Last successful run: [3/4/2026]  
 Runtime: Google Colab (T4 GPU)  
 Epochs: 50  
-Model: YOLOv8s  
+Model: YOLOv11s  
 Classes: crack 
 Expected runtime: ~15–20 minutes
 
