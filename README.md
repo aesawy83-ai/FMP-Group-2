@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/facade_banner_v2.png" width="100%">
-</p>
+
 
 <h1 align="center">🏢 AI-Facade-Inspection</h1>
 <p align="center"><b>AI-Enabled Multi-Class Façade Defect Detection for AECO Workflows</b></p>
@@ -12,6 +10,10 @@
   <img src="https://img.shields.io/badge/Colab-T4-yellow">
   <img src="https://img.shields.io/badge/Status-Research%20WIP-purple">
 </p>
+<p align="center">
+  <img src="assets/facade_banner_v2.png" width="100%">
+</p>
+
 
 
 
