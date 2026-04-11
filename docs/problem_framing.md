@@ -1,4 +1,4 @@
-# 🎯 Problem Framing
+#  Problem Framing
 
 Façade inspection in existing buildings remains costly, subjective, and difficult to scale.
 
