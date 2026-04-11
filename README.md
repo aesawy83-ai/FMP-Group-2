@@ -36,7 +36,7 @@ Traditional façade inspection is often **manual, labor-intensive, visually subj
 
 #  Dataset
 
-##  Dataset Source
+##  Source
 
 The dataset is publicly available on **Roboflow Universe**.
 
@@ -46,7 +46,7 @@ The dataset is publicly available on **Roboflow Universe**.
 * **Export Format:** YOLO11
 * **Version Used:** `V1`
 
-###  Dataset Link
+###  Link
 
 [https://universe.roboflow.com/youniss-workspace-fic2t/m10-fmp-g2-facade-detection](https://universe.roboflow.com/youniss-workspace-fic2t/m10-fmp-g2-facade-detection)
 
@@ -54,10 +54,10 @@ The dataset is publicly available on **Roboflow Universe**.
 
 | Class | Inspection Meaning |
 |---|---|
-| crack | façade cracks, fractures, and line defects |
-| efflorescence | moisture-related salt deposits and white staining |
-| spalling | surface material loss and concrete detachment |
-| wires | exposed service cables and visible electrical lines |
+|  crack |    façade cracks, fractures, and line defects |
+|  efflorescence |    moisture-related salt deposits and white staining |
+|  spalling |    surface material loss and concrete detachment |
+|  wires |    exposed service cables and visible electrical lines |
 
 ##  Dataset Strategy
 
