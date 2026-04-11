@@ -40,7 +40,7 @@ This repository currently focuses on the **detection layer** of the broader insp
 This hub provides quick access to both the **technical repository workflow** and the **research methodology documentation system**.
 
 | 🚀 Technical Repository Navigation | 📚 Research Documentation Hub |
-|---   |   ---|
+|---|---|
 | [🎯 Project Objective](#-project-objective) | [📖 Documentation Overview](docs/README.md) |
 | [🗂️ Dataset and Defect Taxonomy](#-dataset) | [🧩 Problem Framing and Context](docs/problem_framing.md) |
 | [🏗️ Model Architecture and Training Setup](#️-model-architecture) | [❓ Research Question and Evaluation Lens](docs/research_question.md) |
