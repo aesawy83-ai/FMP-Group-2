@@ -1,20 +1,22 @@
-# Dataset Strategy
+# 🗂️ Dataset Strategy
 
-The dataset is managed through Roboflow and exported in YOLOv8 format for use in Google Colab.
+This document explains the data curation and growth strategy for façade defect detection.
 
-## Current Dataset Scope
-- Façade crack imagery
-- Single-class detection task
-- Train / validation / test split managed in Roboflow
+## Current Dataset Goals
+- maximize class balance
+- improve thin-wire representation
+- include varied façade distances
+- improve low-light robustness
+- expand spalling edge cases
 
-## Current Practical Goal
-Support reliable crack detection under varied façade image conditions.
+## Current Weak Zones
+- thin exposed wires
+- small distant cracks
+- shadow-heavy façades
+- low-resolution images
 
-## Governance Notes
-- Dataset contains façade condition imagery only
-- No personal identifiable information is intended to be included
-- Images are used for academic project purposes
-- Future dataset versions should improve diversity across materials, lighting, and façade conditions
-
-## Future Dataset Direction
-In the broader FMP, dataset design should support multiple domains of capture such as mobile, drone, and CCTV imagery, with stronger governance and stratified evaluation.
+## Expansion Roadmap
+- [ ] more night imagery
+- [ ] more oblique façade angles
+- [ ] more complex urban backgrounds
+- [ ] stronger hard-negative examples
