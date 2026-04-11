@@ -110,8 +110,8 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 | Framework         |                                Ultralytics |
 | Training Platform |                               Google Colab |
 | GPU               |                                T4 High RAM |
-| Epochs            |                   120 *(update final run)* |
-| Image Size        |                   832 *(update final run)* |
+| Epochs            |                   50 *(update final run)* |
+| Image Size        |                   640 *(update final run)* |
 | Batch Size        |                                         16 |
 | Early Stopping    |                              patience = 20 |
 | Notebook          | `notebooks/FMP_AI_Facade_Inspection.ipynb` |
