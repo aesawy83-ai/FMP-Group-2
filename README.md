@@ -173,7 +173,7 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 
 ## Unseen Image Predictions
 
-![Prediction 1](results/predictions_new/new_01.jpg)
+![Prediction 1](results/predictions_new/new_03.jpg)
 ![Prediction 2](results/predictions_new/new_02.jpg)
 
 ---
