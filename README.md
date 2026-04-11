@@ -262,7 +262,7 @@ AI-Facade-Inspection/
  GitHub Release asset link: 
 
 ```md
-[ model weights]([YOUR_RELEASE_LINK_HERE](https://github.com/aesawy83-ai/AI-Facade-Inspection/releases/tag/v1.0))
+[ model weights]([https://github.com/aesawy83-ai/AI-Facade-Inspection/releases/tag/v1.0]
 ```
 
 ---
