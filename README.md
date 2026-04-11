@@ -1,8 +1,12 @@
 <p align="center">
   <img src="assets/facade_banner_v2.png" width="100%">
 </p>
-<h1 align="center">
-<p align="center"><b>AI-Enabled Multi-Class Façade Defect Detection for AECO Workflows</b></p>
+
+<h1 align="center">🏢 AI-Facade-Inspection</h1>
+
+<p align="center">
+  <b>AI-Enabled Multi-Class Façade Defect Detection for AECO Workflows</b>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue">
@@ -10,11 +14,14 @@
   <img src="https://img.shields.io/badge/Roboflow-V1-orange">
   <img src="https://img.shields.io/badge/Colab-T4-yellow">
   <img src="https://img.shields.io/badge/Status-Research%20WIP-purple">
+</p>
 
+---
 
-## Introudcution
+## 📖 Introduction
 
-This repository presents the **Detect stage** of an AI-enabled façade inspection workflow developed as part of a **Master’s Final Project in AI for the AECO domain**.  
+This repository presents the **Detect stage** of an AI-enabled façade inspection workflow developed as part of a **Master’s Final Project in AI for the AECO domain**.
+
 The system implements a **YOLO11-based multi-class object detection pipeline**, trained and validated in **Google Colab** using a **public Roboflow dataset**, to automatically identify visible façade defects from inspection imagery.
 
 This stage establishes the computer vision foundation for future integration into **structured defect intelligence pipelines, BIM-linked asset workflows, and Digital Twin lifecycle assessment systems**.
