@@ -97,4 +97,4 @@ Dataset access is controlled through Roboflow workspace permissions.
 If public release is allowed, add the dataset URL here.
 
 ```text
-Dataset link:  https://www.linkedin.com/safety/go?url=https%3A%2F%2Funiverse.roboflow.com%2Fyouniss-workspace-fic2t%2Fm10-fmp-g2-facade-detection&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-ODUxNjJjNzUtYzRlNi00YmZmLTg3NDctMDEwMTY0OThmZjUxXzAxMw%3D%3D
+Dataset link: [https://universe.roboflow.com/youniss-workspace-fic2t/m10-fmp-g2-facade-detection]
