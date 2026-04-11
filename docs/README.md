@@ -1,5 +1,5 @@
 
-# 📚 Documentation Hub - AI-Facade-Inspection
+#  Documentation Hub - AI-Facade-Inspection
 
 Welcome to the **documentation and methodology hub** for the AI-Facade-Inspection project.
 
@@ -13,9 +13,9 @@ This hub helps reviewers, collaborators, and future contributors quickly navigat
 
 ---
 
-# 🧭 Documentation Map
+#  Documentation Map
 
-## 🎯 Research & Problem Framing
+##  Research & Problem Framing
 
 These files define the academic motivation and research logic.
 
@@ -24,7 +24,7 @@ These files define the academic motivation and research logic.
 
 ---
 
-## 🗂️ Dataset & Annotation Governance
+##  Dataset & Annotation Governance
 
 These files define how data quality, class logic, and expansion are controlled.
 
@@ -33,7 +33,7 @@ These files define how data quality, class logic, and expansion are controlled.
 
 ---
 
-## 📊 Benchmarking & Validation
+##  Benchmarking & Validation
 
 These files explain how model reliability is assessed.
 
@@ -42,7 +42,7 @@ These files explain how model reliability is assessed.
 
 ---
 
-## 🔮 Systems & Future Workflow Integration
+##  Systems & Future Workflow Integration
 
 These files connect the current detector to future operational workflows.
 
@@ -51,7 +51,7 @@ These files connect the current detector to future operational workflows.
 
 ---
 
-# 🧠 How This Supports the FMP Methodology
+#  How This Supports the FMP Methodology
 
 This documentation structure mirrors the methodological logic of the Final Master Project.
 
@@ -67,7 +67,7 @@ This alignment ensures that the GitHub repository is not just a code base, but a
 
 ---
 
-# 🔁 Recommended Reading Order
+#  Recommended Reading Order
 
 For the best understanding, review the documents in this sequence:
 
