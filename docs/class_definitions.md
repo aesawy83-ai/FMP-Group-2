@@ -1,4 +1,4 @@
-# 🧩 Class Definitions
+#  Class Definitions
 
 Defines the façade defect taxonomy used in the dataset and YOLO11 model.
 
