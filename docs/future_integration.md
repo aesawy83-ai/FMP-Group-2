@@ -1,29 +1,20 @@
-# Future Integration Roadmap
+# 🔮 Future Integration
 
-The current repository implements the façade crack detection stage only.
+This document outlines how the detector will connect to BIM and digital twin workflows.
 
-## Planned Next Steps
+## Planned Integration Layers
+- JSON defect schema
+- CSV export for maintenance systems
+- BIM element mapping
+- Revit family association
+- IFC GUID linking
+- Digital twin dashboard sync
 
-### 1. Structure
-Convert detections into structured outputs such as:
-- defect class
-- confidence
-- pixel area
-- severity category
-- evidence image reference
+## Future Workflow
+> Detect → Structure → BIM Link → Risk Rank → Maintenance Action
 
-### 2. Integrate
-Associate structured defect outputs with BIM / IFC / Revit elements using future model-mapping logic.
-
-### 3. Assess
-Support persistent condition records and maintenance-oriented decision workflows.
-
-## Example Future Output Schema
-```json
-{
-  "asset_id": "WALL_N_04",
-  "defect_type": "crack",
-  "confidence": 0.98,
-  "severity": "high",
-  "pixel_area": 450
-}
+## Long-Term Goals
+- severity scoring
+- crack width estimation
+- temporal condition tracking
+- predictive maintenance
