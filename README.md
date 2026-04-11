@@ -52,12 +52,12 @@ The dataset is publicly available on **Roboflow Universe**.
 
 ##  Defect Taxonomy
 
-| Class | Inspection Meaning |
-|  ---   |   ---  |
-|  crack  |    façade cracks, fractures, and line defects   |
-|  efflorescence  |    moisture-related salt deposits and white staining   |
-|  spalling  |    surface material loss and concrete detachment   |
-|  wires  |    exposed service cables and visible electrical lines   |
+| Class | Inspection Meaning | Typical AECO Risk |
+|---|---|---|
+| **Crack** | Linear fractures, surface fissures, and visible separation lines within façade materials, often indicating structural stress, shrinkage, or environmental degradation. | Moisture ingress, thermal expansion damage, structural deterioration |
+| **Efflorescence** | White salt deposits and surface staining caused by moisture migration through porous materials, typically signaling persistent water penetration pathways. | Hidden moisture accumulation, material degradation, waterproofing failure |
+| **Spalling** | Localized surface material loss, concrete chipping, detachment, or fragmentation, commonly associated with reinforcement corrosion or freeze–thaw damage. | Concrete failure, falling debris risk, exposed reinforcement |
+| **Wires** | Exposed service cables, loose electrical lines, or visible façade-mounted wiring elements that may indicate damaged routing or incomplete installation. | Electrical hazard, safety compliance issues, visual façade degradation |
 
 ##  Dataset Strategy
 
