@@ -126,12 +126,12 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 
 ## 🌍 Overall Metrics
 
-| Metric       | Value |
-| ------------ | ----: |
-| mAP@0.5      |  0.XX |
-| mAP@0.5:0.95 |  0.XX |
-| Precision    |  0.XX |
-| Recall       |  0.XX |
+| Metric | Value |
+|---|---:|
+| mAP@0.5 | 0.18 |
+| mAP@0.5:0.95 | 0.09 |
+| Precision | 0.28 |
+| Recall | 0.21 |
 
 ## 🧩 Class-wise AP@0.5
 
