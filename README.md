@@ -153,21 +153,12 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 
 ##  Overall Metrics
 
-| Metric | Value |
-|---|---:|
-| mAP@0.5 | 0.18 |
-| mAP@0.5:0.95 | 0.09 |
-| Precision | 0.28 |
-| Recall | 0.21 |
+## 📊 Benchmark Dashboard
 
-##  Class-wise AP@0.5
-
-| Class | AP |
-|---|---:|
-| crack | 0.354 |
-| efflorescence | 0.148 |
-| spalling | 0.155 |
-| wires | 0.056 |
+| Global KPIs |  |  |  | Class-wise AP@0.5 |  |  |  |
+|---:|---:|---:|---:|---:|---:|---:|---:|
+| mAP@0.5 | mAP@0.5:0.95 | Precision | Recall | Crack | Efflorescence | Spalling | Wires |
+| **0.18** | **0.09** | **0.28** | **0.21** | **0.354** | **0.148** | **0.155** | **0.056** |
 
 ---
 
