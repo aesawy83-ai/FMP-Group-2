@@ -259,17 +259,19 @@ AI-Facade-Inspection/
 
 # 📦 Model Weights
 
- GitHub Release asset link: 
+
 
 ```md
-[ model weights]  https://github.com/aesawy83-ai/AI-Facade-Inspection/releases/tag/v1.0
+[ model weights]  
 ```
 
 ## 📦 Model Weights
 
 The final trained **YOLO11s multi-class façade defect detector** is available via GitHub Releases.
+ GitHub Release asset link: https://github.com/aesawy83-ai/AI-Facade-Inspection/releases/tag/v1.0
 
 [Download YOLO11s.pt model weights](https://github.com/aesawy83-ai/AI-Facade-Inspection/releases/tag/v1.0)
+
 ---
 
 # 🔍 Error Analysis
