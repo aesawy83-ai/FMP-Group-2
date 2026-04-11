@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/facade_banner.png" width="100%">
+</p>
+
+
 # 🏢 AI-Facade-Inspection
 
 ## AI-Enabled Multi-Class Façade Defect Detection for Inspection and Digital Twin Integration
