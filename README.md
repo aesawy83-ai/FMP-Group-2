@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/Status-Research%20WIP-purple">
 </p>
 
----
 # Introudcution
 
 This repository presents the **Detect stage** of an AI-enabled façade inspection workflow developed as part of a **Master’s Final Project in AI for the AECO domain**.  
