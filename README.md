@@ -36,7 +36,7 @@ Traditional façade inspection is often **manual, labor-intensive, visually subj
 
 #  Dataset
 
-##  Public Dataset Source
+##  Dataset Source
 
 The dataset is publicly available on **Roboflow Universe**.
 
