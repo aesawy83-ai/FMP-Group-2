@@ -3,7 +3,7 @@
 
 This repository presents the **Detect stage** of an AI-enabled façade inspection workflow developed for the **Final Master Project (FMP)**.
 
-The project uses a **YOLO11-based multi-class object detection pipeline** trained in **Google Colab** using a **Roboflow-managed dataset** to automatically identify visible façade defects from inspection imagery.
+The project uses a **YOLO11-based multi-class object detection pipeline** trained in **Google Colab** using a **Roboflow-managed public dataset** to automatically identify visible façade defects from inspection imagery.
 
 The system currently detects:
 
@@ -12,11 +12,12 @@ The system currently detects:
 - Spalling
 - Exposed wires
 
-The broader project vision is to support a full workflow:
+The broader project vision supports a full inspection intelligence workflow:
 
 > **Capture → Detect → Structure → Integrate → Assess**
 
 This repository currently focuses on the **detection layer**, providing:
+
 - reproducible notebook training
 - validation metrics
 - prediction visualizations
@@ -29,14 +30,16 @@ This repository currently focuses on the **detection layer**, providing:
 # Project Objective
 
 Façade inspection in existing buildings is often:
+
 - labor intensive
 - visually subjective
 - difficult to scale
-- weakly documented across time
+- weakly documented over time
 
-This project explores how **computer vision + object detection** can support a more scalable and evidence-driven inspection workflow.
+This project explores how **computer vision + object detection** can support a more scalable and evidence-driven façade inspection workflow.
 
-The objective is to automatically detect and localize visible façade defects from images so the results can later be linked to:
+The objective is to automatically detect and localize visible façade defects from images so the outputs can later support:
+
 - condition registers
 - BIM elements
 - maintenance prioritization
@@ -73,28 +76,51 @@ Future work will extend this detector into:
 
 # Dataset
 
-## Source
-The dataset is managed using **Roboflow** and exported in **YOLO11 format**.
+## Dataset Source
+The façade defect dataset used in this project is publicly available on **Roboflow Universe**.
 
-- Platform: Roboflow
-- Format: YOLO11
-- Split: Train / Validation / Test
-- Export Type: Object Detection
+- **Workspace:** `youniss-workspace-fic2t`
+- **Project:** `m10-fmp-g2-facade-detection`
+- **Task:** Multi-class object detection
+- **Export Format:** YOLO11
+- **Version Used:** V1
+
+### Public Link
+https://universe.roboflow.com/youniss-workspace-fic2t/m10-fmp-g2-facade-detection
+
+## Dataset Purpose
+The dataset was developed to support AI-assisted façade inspection workflows by detecting common visible envelope defects.
+
+It is designed for the **Detect stage** of the wider project pipeline:
+
+> Capture → Detect → Structure → Integrate → Assess
 
 ## Defect Classes
-The current detector supports **4 façade defect classes**:
+The dataset currently includes the following classes:
 
-| Class | Description |
+| Class | Inspection Meaning |
 |---|---|
-| crack | visible façade cracking and line fractures |
-| efflorescence | salt deposits / moisture-related staining |
-| spalling | concrete cover loss / surface material detachment |
-| wires | exposed cables or façade service lines |
+| crack | façade cracks, fractures, and line defects |
+| efflorescence | moisture-related salt deposits and white staining |
+| spalling | surface material loss and concrete detachment |
+| wires | exposed service cables and visible electrical lines |
 
-## Dataset Access
-Dataset access is controlled through Roboflow workspace permissions.
+## Dataset Splits
+The dataset follows Roboflow-managed standard splits:
 
-If public release is allowed, add the dataset URL here.
+- Training set
+- Validation set
+- Test set
 
-```text
-Dataset link: [https://universe.roboflow.com/youniss-workspace-fic2t/m10-fmp-g2-facade-detection]
+This supports:
+
+- fair held-out evaluation
+- repeatable benchmarking
+- class-level performance tracking
+- PR curve reproducibility
+
+## Dataset Version Control
+The Colab notebook uses:
+
+```python
+version = project.version(1)
