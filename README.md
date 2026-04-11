@@ -186,7 +186,7 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 2. Set runtime → **GPU**
 3. Install dependencies:
 
-```python
+```python 
 !pip install ultralytics roboflow
 ```
 
