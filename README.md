@@ -34,21 +34,7 @@ This repository currently focuses on the **detection layer** of the broader insp
 
 #  Project Objective
 
-Traditional façade inspection is often:
-
-* manual and labor intensive
-* visually subjective
-* difficult to scale
-* weakly documented longitudinally
-
-This project explores how **computer vision and object detection** can transform façade inspection into a more **scalable, auditable, and evidence-driven workflow**.
-
-The long-term goal is to convert image detections into:
-
-* BIM-linked condition records
-* maintenance prioritization logic
-* digital twin updates
-* lifecycle decision support
+Traditional façade inspection is often **manual, labor-intensive, visually subjective, difficult to scale, and weakly documented longitudinally**. This project demonstrates how **computer vision and object detection** can transform the process into a more **scalable, auditable, and evidence-driven workflow**, with a long-term vision of translating detections into **BIM-linked condition intelligence, maintenance prioritization, Digital Twin updates, and lifecycle decision support**.
 
 ---
 
