@@ -3,7 +3,7 @@
 
 > **Final Master Project (FMP) | AI for AECO | Computer Vision | BIM & Digital Twin Workflows**
 <p align="center">
-  <img src="assets/facade_banner.png" width="100%">
+  <img src="assets/facade_banner_v2.png" width="100%">
 </p>
 
 
