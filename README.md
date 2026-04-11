@@ -41,13 +41,13 @@ This hub provides quick access to both the **technical repository workflow** and
 
 | 🚀 Technical Repository Navigation | 📚 Research Documentation Hub |
 |---|---|
-| [🎯 Project Objective](#-project-objective) | [📖 Documentation Overview](docs/README.md) |
-| [🗂️ Dataset and Defect Taxonomy](#-dataset) | [🧩 Problem Framing and Context](docs/problem_framing.md) |
-| [🏗️ Model Architecture and Training Setup](#️-model-architecture) | [❓ Research Question and Evaluation Lens](docs/research_question.md) |
-| [📊 Results Summary and Benchmark KPIs](#-results-summary) | [🏷️ Class Definitions and Annotation Logic](docs/class_definitions.md) |
-| [📈 Evaluation Curves and Visual Evidence](#-evaluation-visual-evidence) | [🗃️ Dataset Strategy and Growth Plan](docs/dataset_strategy.md) |
-| [🔁 Reproducibility Workflow in Colab](#-reproducibility-workflow-google-colab) | [🔍 Error Analysis and Failure Modes](docs/error_analysis.md) |
-| [🧱 Repository Structure and Artifacts](#-repository-structure) | [🔮 Future BIM and Digital Twin Integration](docs/future_integration.md) |
+| [Project Objective](#-project-objective) | [ Documentation Overview](docs/README.md) |
+| [Dataset and Defect Taxonomy](#-dataset) | [ Problem Framing and Context](docs/problem_framing.md) |
+| [Model Architecture and Training Setup](#️-model-architecture) | [ Research Question and Evaluation Lens](docs/research_question.md) |
+| [Results Summary and Benchmark KPIs](#-results-summary) | [ Class Definitions and Annotation Logic](docs/class_definitions.md) |
+| [Evaluation Curves and Visual Evidence](#-evaluation-visual-evidence) | [ Dataset Strategy and Growth Plan](docs/dataset_strategy.md) |
+| [Reproducibility Workflow in Colab](#-reproducibility-workflow-google-colab) | [ Error Analysis and Failure Modes](docs/error_analysis.md) |
+| [Repository Structure and Artifacts](#-repository-structure) | [ Future BIM and Digital Twin Integration](docs/future_integration.md) |
 
 ---
 
@@ -236,23 +236,29 @@ Generated artifacts:
 AI-Facade-Inspection/
 │
 ├── README.md
-├── requirements.txt
+├── assets/
+│   └── facade_banner_v2.png
 │
 ├── notebooks/
 │   └── FMP_AI_Facade_Inspection.ipynb
 │
 ├── docs/
-│   ├── dataset_description.md
+│   ├── README.md
+│   ├── class_definitions.md
+│   ├── collaborative_workflow.md
+│   ├── dataset_strategy.md
 │   ├── error_analysis.md
-│   └── governance_checklist.md
+│   ├── future_integration.md
+│   ├── governance_checklist.md
+│   ├── problem_framing.md
+│   └── research_question.md
 │
 ├── results/
 │   ├── curves/
-│   ├── predictions_val/
+│   ├── evidence/
 │   ├── predictions_new/
-│   └── metrics/
-│
-└── assets/
+│   ├── predictions_val/
+│   └── final_metrics.md
 ```
 
 ---
