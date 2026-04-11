@@ -36,6 +36,11 @@ This repository currently focuses on the **detection layer** of the broader insp
 
 > **Capture → Detect → Structure → Integrate → Assess**
 
+<p align="center">
+  <img src="assets/banner_01.png" width="100%">
+</p>
+
+
 ### Included in this repository
 
 *  Reproducible Google Colab notebook
@@ -60,13 +65,7 @@ This hub provides quick access to both the **technical repository workflow** and
 | [ Error Analysis and Failure Modes](#-error-analysis) | [ Future BIM and Digital Twin Integration](docs/future_integration.md) |
 | [ Repository Structure and Artifacts](#-repository-structure) | [ Governance and Validation Checklist](docs/governance_checklist.md) |
 
-## Methodology Pipeline
-<p align="center">
-  <img src="assets/banner_01.png" width="100%">
-</p>
-
 ---
-
 #  Project Objective
 
 Traditional façade inspection is often:
@@ -126,7 +125,6 @@ The dataset follows standard **train / validation / test** splits to support:
 ```python
 version = project.version(1)
 ```
-
 ---
 
 # 🤖 Model Architecture
@@ -153,7 +151,7 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 
 | mAP@0.5 | mAP@0.5:0.95 | Precision | Recall | Crack AP | Efflorescence AP | Spalling AP | Wires AP |
 |---:|---:|---:|---:|---:|---:|---:|---:|
-| **0.18** | **0.09** | **0.28** | **0.21** | **0.354** | **0.148** | **0.155** | **0.056** |
+| **00.18** | **00.09** | **00.28** | **00.21** | **00.354** | **00.148** | **00.155** | **00.056** |
 
 ---
 
@@ -289,21 +287,9 @@ Typical failure patterns:
 
 ---
 
-#  Limitations
+# 🎓 Academic Context and Limitations
 
 This repository is a **research and academic prototype**.
-
-Current limitations:
-
-* strongly dependent on dataset quality
-* sensitive to camera distance and resolution
-* no severity estimation yet
-* no BIM element linkage yet
-* requires engineering review before use
-
----
-
-# 🎓 Academic Context
 
 Developed as part of a **Master-level Final Project in AI for AECO façade inspection workflows**.
 
@@ -314,6 +300,14 @@ This work combines:
 * BIM Integration
 * Digital Twin Strategy
 * Lifecycle Asset Intelligence
+
+Current limitations:
+
+* strongly dependent on dataset quality
+* sensitive to camera distance and resolution
+* no severity estimation yet
+* no BIM element linkage yet
+* requires engineering review before use
 
 ---
 
