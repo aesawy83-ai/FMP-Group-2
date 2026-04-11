@@ -135,8 +135,6 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 
 # 📊 Results Summary
 
-> Replace with your final metrics from Colab
-
 ## 🌍 Overall Metrics
 
 | Metric | Value |
@@ -261,10 +259,10 @@ AI-Facade-Inspection/
 
 # 📦 Model Weights
 
-Add your GitHub Release asset link:
+ GitHub Release asset link: 
 
 ```md
-[Download trained model weights](YOUR_RELEASE_LINK_HERE)
+[ model weights]([YOUR_RELEASE_LINK_HERE](https://github.com/aesawy83-ai/AI-Facade-Inspection/releases/tag/v1.0))
 ```
 
 ---
