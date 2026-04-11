@@ -1,5 +1,3 @@
-# 2) `collaborative_workflow.md`
-```md
 # 🤝 Collaborative Workflow
 
 This document defines how dataset updates, notebook changes, and benchmark revisions are collaboratively managed.
