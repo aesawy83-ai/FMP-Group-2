@@ -1,7 +1,15 @@
-# Problem Framing
+# 🎯 Problem Framing
 
-Façade condition assessment is still heavily dependent on manual inspection, photo logs, and narrative reporting. These methods are difficult to audit over time and are weakly integrated with Building Information Models (BIM).
+Façade inspection in existing buildings remains costly, subjective, and difficult to scale.
 
-This project addresses the information gap between physical façade assets and digital models by using AI-based computer vision to detect visible defects from imagery. The longer-term objective is to generate structured façade condition information that can support BIM-linked workflows and future digital twin integration.
+## Core Problem
+How can computer vision automate visible façade defect detection while preserving engineering trust and downstream BIM integration potential?
 
-The current repository focuses on the detection layer of this system using YOLOv8-based crack detection.
+## Why It Matters
+- aging building stock
+- manual inspection cost
+- inconsistent reporting
+- weak lifecycle traceability
+
+## AI Opportunity
+Use multi-class object detection to create **consistent defect evidence layers** for downstream asset workflows.
