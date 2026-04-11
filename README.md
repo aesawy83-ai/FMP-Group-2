@@ -4,7 +4,6 @@
 
 <p align="center">
   <b>AI-Enabled Multi-Class Façade Defect Detection for AECO Workflows</b>
- - From façade imagery to BIM-linked defect intelligence for AECO lifecycle workflows.
 </p>
 
 <p align="center">
