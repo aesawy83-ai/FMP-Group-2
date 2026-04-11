@@ -64,13 +64,18 @@ This hub provides quick access to both the **technical repository workflow** and
 
 ```mermaid
 flowchart LR
-    A[📸 Capture<br/>Inspection Images] --> B[🧠 Detect<br/>YOLO11 Multi-Class Defects]
-    B --> C[🗂️ Structure<br/>Defect Metadata + Classes]
-    C --> D[🏗️ Integrate<br/>BIM / IFC / Asset Mapping]
-    D --> E[📊 Assess<br/>Lifecycle Risk + Maintenance]
+    subgraph CV[🧠 Computer Vision Layer]
+        A[📸 Capture] --> B[YOLO11 Detect]
+        B --> C[Defect Structuring]
+    end
 
-    B --> F[📈 Benchmark<br/>PR Curves + AP Metrics]
-    D --> G[🌐 Digital Twin<br/>Condition Intelligence]
+    subgraph AECO[🏗️ AECO Intelligence Layer]
+        C --> D[BIM Integration]
+        D --> E[Digital Twin]
+        E --> F[Lifecycle Assessment]
+    end
+
+    B --> G[📈 Benchmark KPIs]
 ```
 ---
 
