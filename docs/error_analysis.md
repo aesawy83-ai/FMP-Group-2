@@ -1,22 +1,22 @@
-# 🔍 Error Analysis
+#  Error Analysis
 
 This document summarizes the major failure modes observed in current model validation.
 
 ## Common Failure Patterns
-### ⚡ Wires
+###⚡ Wires
 - missed thin cables
 - confused with crack lines
 - low recall at distance
 
-### 🪨 Crack
+###  Crack
 - confusion with façade joints
 - false positives on shadows
 
-### 💧 Efflorescence
+###  Efflorescence
 - confused with bright paint regions
 - weak under glare
 
-### 🧱 Spalling
+###  Spalling
 - misses small detached patches
 - weak in low-resolution images
 
