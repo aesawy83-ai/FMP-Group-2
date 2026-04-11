@@ -2,7 +2,9 @@
 ## AI-Enabled Multi-Class Façade Defect Detection for Inspection and Digital Twin Integration
 
 > **Final Master Project (FMP) | AI for AECO | Computer Vision | BIM & Digital Twin Workflows**
-
+<p align="center">
+  <img src="assets/facade_banner.png" width="100%">
+</p>
 
 
 This repository presents the **Detect stage** of an AI-enabled façade inspection workflow developed for a **Master-level Final Project**.
