@@ -76,20 +76,19 @@ version = project.version(1)
 # 🤖 Model Architecture
 
 The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 GPU)**.
-
 ##  Training Configuration
 
-| Parameter | Value | Description |
-|---|---:|---|
-| **Model** | YOLO11s | Lightweight high-accuracy baseline |
-| **Framework** | Ultralytics | Production-ready training ecosystem |
-| **Training Platform** | Google Colab | Cloud GPU experimentation environment |
-| **GPU** | T4 High RAM | Efficient mid-scale acceleration |
-| **Epochs** | 50 | Balanced convergence schedule |
-| **Image Size** | 640 | Standard detection resolution |
-| **Batch Size** | 16 | Stable memory-efficient batching |
-| **Early Stopping** | patience = 20 | Prevents overfitting stagnation |
-| **Notebook** | `notebooks/FMP_AI_Facade_Inspection.ipynb` | Full reproducibility workflow |
+| **Parameter** | **Value** | **Description** |
+|:---:|:---:|:---:|
+| **Model** | YOLO11s | Lightweight high-accuracy baseline detector |
+| **Framework** | Ultralytics | Production-ready modern training ecosystem |
+| **Training Platform** | Google Colab | Cloud-native GPU experimentation workflow |
+| **GPU** | T4 High RAM | Efficient mid-scale deep learning acceleration |
+| **Epochs** | 50 | Balanced convergence and stability schedule |
+| **Image Size** | 640 | Standard object detection input resolution |
+| **Batch Size** | 16 | Stable memory-efficient gradient batching |
+| **Early Stopping** | patience = 20 | Prevents overfitting and wasted epochs |
+| **Notebook** | `notebooks/FMP_AI_Facade_Inspection.ipynb` | End-to-end reproducible training workflow |
 
 ---
 
