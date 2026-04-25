@@ -96,7 +96,7 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 
 | mAP@0.5 | mAP@0.5:0.95 | Precision | Recall | Crack AP | Efflorescence AP | Spalling AP | Wires AP |
 |---:|---:|---:|---:|---:|---:|---:|---:|
-| **00.18** | **00.09** | **00.28** | **00.21** | **00.354** | **00.148** | **00.155** | **00.056** |
+| **00.166** | **00.09** | **00.28** | **00.21** | **00.354** | **00.148** | **00.155** | **00.056** |
 
 ---
 
