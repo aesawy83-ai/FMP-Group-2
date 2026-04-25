@@ -69,7 +69,7 @@ The dataset follows standard **train / validation / test** splits to support:
 ### Version freeze used in notebook
 
 ```python
-version = project.version(1)
+version = project.version(2)
 ```
 ---
 
