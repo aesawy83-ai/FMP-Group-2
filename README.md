@@ -83,7 +83,7 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 | **Model** | YOLO11s | Lightweight high-accuracy baseline detector for efficient experimentation |
 | **Framework** | Ultralytics | Production-ready modern training ecosystem with simplified deployment |
 | **Training Platform** | Google Colab | Cloud-native GPU experimentation workflow with easy reproducibility |
-| **GPU** | T4 High RAM | Efficient mid-scale deep learning acceleration for training |
+| **GPU** | G4 High RAM | Efficient mid-scale deep learning acceleration for training |
 | **Epochs** | 100 | Balanced convergence, stability, and validation monitoring schedule |
 | **Image Size** | 640 | Standard object detection input resolution for façade imagery |
 | **Batch Size** | 16 | Stable memory-efficient gradient batching with good throughput |
@@ -96,7 +96,7 @@ The detector is trained using **Ultralytics YOLO11** in **Google Colab Pro (T4 G
 
 | mAP@0.5 | mAP@0.5:0.95 | Precision | Recall | Crack AP | Efflorescence AP | Spalling AP | Wires AP |
 |---:|---:|---:|---:|---:|---:|---:|---:|
-| **00.166** | **00.09** | **00.28** | **00.21** | **00.354** | **00.148** | **00.155** | **00.056** |
+| **00.166** | **00.09** | **00.28** | **00.21** | **00.232** | **00.086** | **00.270** | **00.077** |
 
 ---
 
