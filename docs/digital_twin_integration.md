@@ -58,7 +58,7 @@ Each detection should be converted into a structured **JSON or CSV record**.
   "association_status": "pending_review"
 }
 ---
-🔗 BIM Association Logic
+## BIM Association Logic
 
 Defects should only be linked to BIM elements when spatial confidence is acceptable.
 
