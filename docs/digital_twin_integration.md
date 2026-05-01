@@ -14,7 +14,9 @@ The wider project vision extends this into a **Digital Twin workflow**, where im
 ## 🧭 System Workflow Overview
 
 Capture → Detect → Structure → Integrate → Assess
-![System Workflow](../assets/system_pipeline.png)
+## AI Pipeline
+
+![AI Pipeline](images/pipeline.png)
 ---
 
 ## 🏗️ Digital Twin Role
