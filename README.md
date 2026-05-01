@@ -198,6 +198,11 @@ Typical failure patterns:
 * low-light recall degradation
 
 ---
+##  Digital Twin Integration
+
+The full Digital Twin system design, including BIM linkage, lifecycle modelling, and system architecture, is documented here:
+
+ [View Digital Twin Integration Strategy](docs/digital_twin_integration.md)
 
 ##  Roadmap
 
