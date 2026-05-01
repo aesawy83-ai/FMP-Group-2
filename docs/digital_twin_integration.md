@@ -36,7 +36,7 @@ Image → YOLO Detection → Structured JSON → BIM / IFC → Digital Twin → 
 
 ## System Pipeline (see Figure 1)
 
-![System Pipeline](../assets/pipeline_dt_v2.png)
+![System Pipeline](../assets/pipeline_dt.png)
 
 This pipeline transforms inspection imagery into structured, BIM-linked intelligence ready for Digital Twin integration and decision-making.
 
