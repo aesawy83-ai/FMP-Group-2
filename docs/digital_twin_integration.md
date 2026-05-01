@@ -27,7 +27,12 @@ It supports:
 ---
 
 ## Data Flow
-Inspection Image → YOLO Detection → Structured Defect Record → BIM / IFC Element Association → Digital Twin Condition Update → Dashboard / Maintenance Decision
+Inspection Image 
+→ YOLO Detection
+→ Structured Defect Record 
+→ BIM / IFC Element Association 
+→ Digital Twin Condition Update 
+→ Dashboard / Maintenance Decision
 
 ---
 
