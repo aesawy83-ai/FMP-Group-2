@@ -25,7 +25,13 @@ The workflow progresses from inspection imagery to AI-based detection, structure
 ```text
 Capture → Detect → Structure → Coordinate Mapping → Integrate → Digital Twin → Feedback
 ```
+### Technical Pipeline Mapping
 
+Capture → Detect → Structure → Integrate → Assess
+
+maps to:
+
+Image → YOLO Detection → Structured JSON → BIM / IFC → Digital Twin → Dashboard
 ---
 
 ##  3. Data Flow Architecture
