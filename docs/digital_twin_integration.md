@@ -1,10 +1,10 @@
-# 🧠 Digital Twin Integration Strategy
+# Digital Twin Integration Strategy
 
 > This document defines the strategy for extending YOLO-based façade defect detection into a BIM-linked Digital Twin workflow.
 
 ---
 
-## 🎯 Purpose
+## Purpose
 This repository currently implements the **Detect stage** of the façade inspection workflow using a YOLO-based multi-class defect detection model.
 
 The wider project vision extends this into a **Digital Twin workflow**, where image-based detections are transformed into **structured, traceable, BIM-linked condition intelligence**.
@@ -14,7 +14,7 @@ Capture → Detect → Structure → Integrate → Assess
 
 ---
 
-## 🏗️ Digital Twin Role
+## Digital Twin Role
 The Digital Twin layer converts façade defect detections into **persistent asset condition records**.
 
 It supports:
@@ -26,12 +26,12 @@ It supports:
 
 ---
 
-## 🔄 Data Flow
+## Data Flow
 Inspection Image → YOLO Detection → Structured Defect Record → BIM / IFC Element Association → Digital Twin Condition Update → Dashboard / Maintenance Decision
 
 ---
 
-## 🧾 Structured Defect Record
+## Structured Defect Record
 Each detection should be converted into a structured **JSON or CSV record**.
 
 Example:
@@ -51,7 +51,7 @@ Example:
 
 ---
 
-## 🔗 BIM Association Logic
+## BIM Association Logic
 Defects should only be linked to BIM elements when **spatial confidence is acceptable**.  
 Forced or uncertain associations should be avoided.
 
@@ -70,7 +70,7 @@ Association criteria:
 
 ---
 
-## 🏢 Revit / IFC Integration
+## Revit / IFC Integration
 Future implementation may include:
 - IFC GUID tagging  
 - Revit shared parameter updates  
@@ -90,10 +90,11 @@ Suggested Revit parameters:
 
 ---
 
-## 📈 Digital Twin Update Principle
+## Digital Twin Update Principle
 The Digital Twin should be updated through **controlled condition records**, not direct model overwrites.
 
 Each inspection creates a new condition state:
+
 T1 → Crack detected → Medium severity  
 T2 → Crack expanded → High severity  
 T3 → Repair completed → Closed  
