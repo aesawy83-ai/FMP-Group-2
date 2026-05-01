@@ -237,4 +237,3 @@ The full Digital Twin system design, including BIM linkage, lifecycle modelling,
 # 👤 Author
 
 **Group_2**
-
