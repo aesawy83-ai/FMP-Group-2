@@ -48,7 +48,7 @@ This pipeline transforms inspection imagery into structured defect intelligence 
 
 ---
 
-##  BIM Association Logic | 🟡 Digital Twin Condition Model
+##  BIM Association Logic |  Digital Twin Condition Model
 
 <table>
 <tr>
