@@ -34,7 +34,7 @@ Image → YOLO Detection → Structured JSON → BIM / IFC → Digital Twin → 
 
 ---
 
-## System Pipeline (see Figure 1)
+## System Pipeline 
 
 ![System Pipeline](../assets/pipeline_dt.png)
 
@@ -112,9 +112,9 @@ This structured format enables integration with BIM systems and Digital Twin pla
 
 ---
 
-## BIM Association Logic (see Figure 2)
+## BIM Association Logic 
 
-![BIM Association Logic](../assets/bim_logic_v2.png)
+![BIM Association Logic](../assets/bim_logic.png)
 
 Defects should only be linked to BIM elements when spatial confidence is acceptable.
 
@@ -168,9 +168,9 @@ Future implementation may include:
 
 ---
 
-## Digital Twin Condition Model (see Figure 3)
+## Digital Twin Condition Model 
 
-![Digital Twin Lifecycle](../assets/dt_lifecycle_v2.png)
+![Digital Twin Lifecycle](../assets/dt_lifecycle.png)
 
 ---
 
