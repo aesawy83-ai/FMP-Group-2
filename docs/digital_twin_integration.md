@@ -1,10 +1,10 @@
-# 🧠 Digital Twin Integration Strategy
+#  Digital Twin Integration Strategy
 
 > This document defines the system architecture for extending YOLO-based façade defect detection into a **BIM-linked Digital Twin workflow** for AECO applications.
 
 ---
 
-## 🎯 1. System Purpose
+##  1. System Purpose
 
 This repository implements the **Detect stage** of an AI-enabled façade inspection pipeline.
 
@@ -16,7 +16,7 @@ The extended goal is to transform image-based detections into:
 
 ---
 
-## 🧭 2. End-to-End Workflow
+##  2. End-to-End Workflow
 
 ![Digital Twin Pipeline](../assets/pipeline_dt.png)
 
@@ -28,7 +28,7 @@ Capture → Detect → Structure → Coordinate Mapping → Integrate → Digita
 
 ---
 
-## 🔄 3. Data Flow Architecture
+##  3. Data Flow Architecture
 
 ```text
 Inspection Image
@@ -48,7 +48,7 @@ User Feedback & Validation
 
 ---
 
-## 🧾 4. Structured Defect Data Model
+##  4. Structured Defect Data Model
 
 Each detection should be converted into a structured JSON record that can later be linked to BIM elements and inspection evidence.
 
@@ -94,7 +94,7 @@ Each detection should be converted into a structured JSON record that can later 
 
 ---
 
-## 📐 5. Coordinate Mapping Layer
+##  5. Coordinate Mapping Layer
 
 This layer transforms image-based detections into real-world coordinates aligned with the BIM model.
 
@@ -114,7 +114,7 @@ Without this layer, detections remain image-only observations and cannot be reli
 
 ---
 
-## 🔗 6. BIM Integration Strategy
+##  6. BIM Integration Strategy
 
 Defects are linked to BIM elements using:
 - IFC GUIDs  
@@ -132,7 +132,7 @@ Ensure each defect becomes a persistent, queryable, and auditable asset conditio
 
 ---
 
-## 🏢 7. BIM Association Logic
+##  7. BIM Association Logic
 
 ![BIM Association Logic](../assets/bim_logic.png)
 
@@ -146,7 +146,7 @@ BIM association should only occur when the detection and spatial mapping confide
 
 ---
 
-## 📈 8. Digital Twin Update Model
+##  8. Digital Twin Update Model
 
 ![Digital Twin Lifecycle](../assets/dt_lifecycle.png)
 
@@ -167,7 +167,7 @@ This enables:
 
 ---
 
-## 📊 9. Digital Twin Dashboard Layer
+##  9. Digital Twin Dashboard Layer
 
 The dashboard layer should make the structured inspection data usable for decision-making.
 
@@ -187,7 +187,7 @@ The dashboard layer should make the structured inspection data usable for decisi
 
 ---
 
-## 🔁 10. Feedback Loop
+##  10. Feedback Loop
 
 ```text
 Detection → BIM → Dashboard → User Review → Validation → Updated Record
@@ -197,7 +197,7 @@ The feedback loop improves the reliability of the system by allowing reviewers t
 
 ---
 
-## ⚠️ 11. Safety and Review Gates
+##  11. Safety and Review Gates
 
 This system is intended for decision support, not autonomous structural safety decisions.
 
@@ -210,7 +210,7 @@ This system is intended for decision support, not autonomous structural safety d
 
 ---
 
-## 🏆 12. System Principles
+##  12. System Principles
 
 - structured data over raw detections  
 - traceability of all decisions  
